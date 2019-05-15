@@ -1,0 +1,45 @@
+
+header  {
+    height: 146px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../img/ISOfondo.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.navbar-light .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #e97800;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 47px;
+    width: 90px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .header  {
+        height: 100px;
+    }
+    .navbar-logo {
+        max-width: 200px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        width: auto;
+        text-align: left;
+        padding-left: 20px;
+        line-height: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-logo {
+        max-width: 100px;
+    }
+    .header  {
+        height: 100px;
+    }
+}
+
+.navbar-collapse.collapse.show {
+    z-index: 999;
+    background: #fff;
+}

@@ -319,7 +319,6 @@ body {
 	width: 960px;
 }
 .servicios .serv_int .titServ .tit1 {
-	height: 32px;
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-weight:300;
 	font-size: 27px;
@@ -547,7 +546,7 @@ body {
   padding-top: 26px;
 }
 .redes .redes_int .cajaRedes2 {
-  float: left;
+  float: right;
   height: 118px;
   width: 159px;
   padding-left:30px;
@@ -1452,7 +1451,7 @@ height: 937px !important;
 .cajaIcono .sepaIco {
 	float: left;
 	height: 150px;
-	width: 5px;
+	width: 5px!important;
 }
 .servicios .serv_int .iconos .ch-grid li .ch-item.ch-img-1 .ch-info-wrap .ch-info .ch-info-back h3 a {
 	color: #FFF;
