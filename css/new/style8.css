@@ -76,12 +76,13 @@ header  {
     }
 }
 
-.navbar-collapse.collapse.show {
-    z-index: 999;
-    background: #fff;
-}
+
 
 @media (max-width: 991px) {
+    .navbar-collapse {
+        z-index: 999;
+        background: #fff;
+    }
     .ei-slider-large .ei-title {
         position: absolute;
         right: 0;
