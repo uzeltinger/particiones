@@ -11,8 +11,8 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
   //echo "<script>window.location='http://www.particiones.net/index2.html'</script>";
 }
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="es">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -203,12 +203,16 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
       </div>
     </div>
   </div>
+
+  
   <div class="redes container-fluid">
     <div class="redes_int row">
       <!--<div class="cajaRedes" style="margin-right:25px"><a href="youtube" target="_blank"><img class="fade" src="img/youtube.png" width="68" height="68" alt="Vea nuestro canal de Youtube" /></a></div>-->
       <div class="cajaRedes2 col-12"><a href="servicio/iso9001.html"><img src="img/iso_footer.png" width="159" height="117" /></a></div>
     </div>
   </div>
+
+
   <div class="footer container-fluid">
     <div class="footer_int row">
       <div class="caja1Footer">
