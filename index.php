@@ -162,7 +162,7 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
                 <div class="ch-info">
                   <div class="ch-info-front ch-img-3"></div>
                   <div class="ch-info-back">
-                    <h3 style="margin-top:-52px; margin-left:6px"><a href="servicio/servicio.html"><img src="img/test3.png" width="127" height="127"/></a></h3>
+                    <h3 style="margin-top:-52px; margin-left:6px"><a href="servicio/servicio.html"><img src="img/test3.png" width="127" height="127" /></a></h3>
                   </div>
                 </div>
               </div>
@@ -173,6 +173,9 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
       <div class="cajasTxtHome row">
         <div class="cajaIcono col-12 col-sm-4">
           <div class="txtCajaIcon">
+            <div class="cajaIcono-icono d-lg-none">
+              <a href="producto/"><img src="images/13.jpg" /></a>
+            </div>
             <div class="titCajaIcon"><span style="color:#512c19"><a href="producto/index.html">Producto</a></span></div>
             <div class="bajadaTxtIco"><a href="producto/">Separadores de fibra sólida, modelos estándares o diseñados según sus especificaciones. Conozca sus ventajas.</a></div>
           </div>
@@ -180,6 +183,9 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
         </div>
         <div class="cajaIcono col-12 col-sm-4">
           <div class="txtCajaIcon">
+            <div class="cajaIcono-icono d-lg-none">
+              <a href="producto/"><img src="images/14.jpg" /></a>
+            </div>
             <div class="titCajaIcon" style="color:#512c19"><a href="servicio/calidad.html">Calidad</a></div>
             <div class="bajadaTxtIco"><a href="servicio/calidad.html">Procedimiemtos de Gestión de Calidad, maquinaria americana de reconocida calidad, papel fabricado bajo altos estándares y personal capacitado, garantizan nuestra calidad.</a></div>
           </div>
@@ -187,6 +193,9 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
         </div>
         <div class="cajaIcono col-12 col-sm-4">
           <div class="txtCajaIcon">
+            <div class="cajaIcono-icono d-lg-none">
+              <a href="producto/"><img src="images/15.jpg" /></a>
+            </div>
             <div class="titCajaIcon"><span style="color:#512c19"><a href="servicio/servicio.html">Servicio</a></span></div>
             <div class="bajadaTxtIco"><a href="servicio/servicio.html">Entrega oportuna y desarrollo de soluciones a su medida, son parte del servicio que PARTICIONES le ofrece</a>.</div>
           </div>
@@ -204,12 +213,12 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
     <div class="footer_int row">
       <div class="caja1Footer">
         <div class="cajaTitCont">Contacto</div>
-        <div class="cajaTitCont2">Presidente Jorge Alessandri 11.500 - edificio 1 espacio 2B - San Bernardo, Santiago.</div>
+        <div class="cajaTitCont2"><a target="blank" class="white-link" href="https://goo.gl/maps/iX3rr9RhMiXZu7JK6">Presidente Jorge Alessandri 11.500 - edificio 1 espacio 2B - San Bernardo, Santiago.</a></div>
         <div class="cajaTitCont3">+562 3207 1122</div>
-        <div class="cajaTitCont4">ventas@particiones.net</div>
+        <div class="cajaTitCont4"><a class="white-link" href="mailto:ventas@particiones.net">ventas@particiones.net</a></div>
       </div>
       <div class="caja2Footer"></div>
-      <div class="caja3Footer">
+      <div class="caja3Footer d-md-block d-none">
         <div class="cajaTitLink" style="color:#f90">Menú</div>
         <div class="menuLinks_web">
           <ul>
@@ -224,13 +233,13 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
         </div>
       </div>
     </div>
-    
+
   </div>
 
   <div class="footer container-fluid">
     <div class="pie row">
       <div class="pie_int">
-        
+
         <div class="powered">PARTICIONES • <script>
             document.write(new Date().getFullYear())
           </script> <span style="color:#F90; font-size:12px">®</span> Todos los Derechos Reservados</div>

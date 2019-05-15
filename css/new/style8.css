@@ -3,7 +3,7 @@ header  {
     height: 146px;
     margin-right: auto;
     margin-left: auto;
-    background-image: url(../img/ISOfondo.jpg);
+    background-image: url(../../img/ISOfondo.jpg);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -16,12 +16,24 @@ header  {
     width: 90px;
     text-align: center;
 }
-@media (max-width: 768px) {
-    .header  {
+
+.footer {
+    height: auto;
+}
+.white-link {
+    color: #fff;
+}
+.white-link:hover {
+    color: #f5d3ad;
+}
+@media (max-width: 767px) {
+    header  {
         height: 100px;
+        background: none;
     }
     .navbar-logo {
         max-width: 200px;
+        width: 160px;
     }
     .navbar-light .navbar-nav .nav-link {
         width: auto;
@@ -34,7 +46,7 @@ header  {
     .navbar-logo {
         max-width: 100px;
     }
-    .header  {
+    header  {
         height: 100px;
     }
 }
@@ -45,6 +57,14 @@ header  {
 }
 
 @media (max-width: 991px) {
+    .ei-slider-large .ei-title {
+        position: absolute;
+        right: 0;
+        margin-right: 0;
+        top: 60%;
+        width: 500px;
+        left: 50px;
+    }
     .servicios {
         height: auto;
     }
@@ -64,7 +84,7 @@ header  {
         height: auto;
         float: none;
         width: auto;
-        margin-top: 0;
+        margin-top: 20px;
         padding-left: 0;
     }
     .cajaIcono {
@@ -117,6 +137,7 @@ header  {
     }
     .footer .footer_int .caja1Footer {
         padding-left: 10px;
+        margin-bottom: 20px;
     }
     .powered {
         margin-left: 0;
@@ -156,6 +177,20 @@ header  {
         height: auto;
     }
     .redes .redes_int .cajaRedes2 {
+        height: auto;
+    }
+    .cajaIcono-icono {    
+        width: 127px;
+        height: 127px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .cajaIcono-icono img{
+        width: 127px;
+        height: 127px;
+        border-radius: 50%;
+    }
+    .servicios .serv_int .titServ .tit2 {
         height: auto;
     }
 }
