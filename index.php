@@ -150,7 +150,7 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
                 <div class="ch-info">
                   <div class="ch-info-front ch-img-2"></div>
                   <div class="ch-info-back" style="background-color:#993300">
-                    <h3 style="margin-top:-52px; margin-left:6px"><a href="servicio/calidad.html"><img src="img/test2.png" width="127" height="127" border="0" /></a></h3>
+                    <h3 style="margin-top:-52px; margin-left:6px"><a href="servicio/calidad.html"><img src="img/test2.png" width="127" height="127" /></a></h3>
                   </div>
                 </div>
               </div>
@@ -162,7 +162,7 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
                 <div class="ch-info">
                   <div class="ch-info-front ch-img-3"></div>
                   <div class="ch-info-back">
-                    <h3 style="margin-top:-52px; margin-left:6px"><a href="servicio/servicio.html"><img src="img/test3.png" width="127" height="127" border="0" /></a></h3>
+                    <h3 style="margin-top:-52px; margin-left:6px"><a href="servicio/servicio.html"><img src="img/test3.png" width="127" height="127"/></a></h3>
                   </div>
                 </div>
               </div>
@@ -194,19 +194,17 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
       </div>
     </div>
   </div>
-  <div class="redes">
-    <div class="redes_int">
+  <div class="redes container-fluid">
+    <div class="redes_int row">
       <!--<div class="cajaRedes" style="margin-right:25px"><a href="youtube" target="_blank"><img class="fade" src="img/youtube.png" width="68" height="68" alt="Vea nuestro canal de Youtube" /></a></div>-->
-      <div class="cajaRedes2"><a href="servicio/iso9001.html"><img src="img/iso_footer.png" width="159" height="117" /></a></div>
+      <div class="cajaRedes2 col-12"><a href="servicio/iso9001.html"><img src="img/iso_footer.png" width="159" height="117" /></a></div>
     </div>
   </div>
-  <div class="footer">
-    <div class="footer_int">
+  <div class="footer container-fluid">
+    <div class="footer_int row">
       <div class="caja1Footer">
         <div class="cajaTitCont">Contacto</div>
-        <div class="cajaTitCont2">Presidente Jorge Alessandri 11.500 <br />
-          edificio 1 espacio 2B<br />
-          San Bernardo, Santiago.</div>
+        <div class="cajaTitCont2">Presidente Jorge Alessandri 11.500 - edificio 1 espacio 2B - San Bernardo, Santiago.</div>
         <div class="cajaTitCont3">+562 3207 1122</div>
         <div class="cajaTitCont4">ventas@particiones.net</div>
       </div>
@@ -226,14 +224,21 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
         </div>
       </div>
     </div>
-    <div class="pie">
+    
+  </div>
+
+  <div class="footer container-fluid">
+    <div class="pie row">
       <div class="pie_int">
-        <div class="powered" style="color:#a78471"></div>
-        <div class="powered" style="margin-left:260px">PARTICIONES • <script>
+        
+        <div class="powered">PARTICIONES • <script>
             document.write(new Date().getFullYear())
           </script> <span style="color:#F90; font-size:12px">®</span> Todos los Derechos Reservados</div>
       </div>
     </div>
+  </div>
+
+
   </div>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 

@@ -43,3 +43,119 @@ header  {
     z-index: 999;
     background: #fff;
 }
+
+@media (max-width: 991px) {
+    .servicios {
+        height: auto;
+    }
+    .servicios .serv_int{
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .servicios .serv_int .titServ {
+        height: 150px;
+        width: 100%;
+    }
+    .servicios .serv_int .titServ .tit2 {
+        width: 100%;
+    }
+    .servicios .serv_int .cajasTxtHome {
+        height: auto;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        padding-left: 0;
+    }
+    .cajaIcono {
+        margin-top: 20px;
+    }
+    .cajaIcono .txtCajaIcon {
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+    .cajaIcono .sepaIco {
+        display: none;
+    }
+    .bajadaTxtIco {
+        height: auto;
+        width: 100%;
+    }
+
+    .redes .redes_int .cajaRedes2 a{
+        float: right;
+    }
+    .redes .redes_int {
+        width: auto;
+    }
+    .footer .footer_int {
+        width: auto;
+        height: auto;
+    }
+    .footer .pie .pie_int {
+        min-height: 106px;
+        width: auto;
+    }
+    .powered {
+        width: auto;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer .footer_int .caja1Footer {
+        height: auto;
+        width: auto;
+    }
+    .caja2Footer {
+        display: none;
+    }
+    .footer .footer_int .caja3Footer {
+        float: left;
+        height: auto;
+        width: auto;
+    }
+    .footer .footer_int .caja1Footer {
+        padding-left: 10px;
+    }
+    .powered {
+        margin-left: 0;
+    }
+    .footer .footer_int .caja1Footer .cajaTitCont2 {
+        width: auto;
+    }
+    .footer .footer_int .caja1Footer .cajaTitCont3 {
+        margin-top: 10px;
+    }
+    .footer .footer_int .caja3Footer {
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .footer .footer_int .caja3Footer .cajaTitLink {
+        width: auto;
+    }
+    .footer .footer_int .caja3Footer .menuLinks_web {
+        width: auto;
+        padding-left: 0;
+        height: auto;
+    }
+    .menuLinks_web ul li a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .redes {
+        height: auto;
+    }
+    .redes img{
+        width: 100px;
+        height: auto;
+    }
+    .redes .redes_int {
+        height: auto;
+    }
+    .redes .redes_int .cajaRedes2 {
+        height: auto;
+    }
+}
