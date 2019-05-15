@@ -229,7 +229,7 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
             <li><a href="empresa/">Empresa</a></li>
             <li><a href="producto/">Producto</a></li>
             <li><a href="servicio/calidad.html">Calidad</a></li>
-            <li><a href="../servicio/iso9001.html">ISO 9001</a></li>
+            <li><a href="servicio/iso9001.html">ISO 9001</a></li>
             <li><a href="servicio/servicio.html">Servicio</a></li>
             <li><a href="clientes/">Clientes</a></li>
             <li><a href="contacto/">Contacto</a></li>
