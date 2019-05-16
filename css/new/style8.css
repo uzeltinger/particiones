@@ -51,6 +51,10 @@ header  {
     margin-right: 15px;
 }
 
+.redes .redes_int .cajaRedes2 a{
+    float: right;
+}
+
 @media (max-width: 767px) {
     header  {
         height: 100px;
@@ -129,9 +133,6 @@ header  {
         width: 100%;
     }
 
-    .redes .redes_int .cajaRedes2 a{
-        float: right;
-    }
     .redes .redes_int {
         width: auto;
     }
@@ -243,4 +244,34 @@ header  {
         text-align: center;
         padding: 15px;
     }
+    b, strong {
+        font-weight: bold;
+    }
+    .bannerServicios .titBanner {
+        width: auto;
+    }
+
+    .t_producto {
+        padding: 15px;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 25px;
+        color: #49281f;
+        padding-top: 30px;
+        background-color: #fce1bf;
+        margin-bottom: 30px;
+    }
+    .t_producto.T1{
+        background-color: #fce1bf;
+    }
+    .t_producto.T2 {
+        background-color: #fad5a6;
+    }
+    .t_producto.T3 {
+        background-color: #f9c88c;
+    }
+    .t_producto.T4 {
+        background-color: #f8bd73;
+    }
+
 }
