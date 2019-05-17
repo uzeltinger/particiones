@@ -281,7 +281,19 @@ header  {
         text-align: center;
         margin-top: 15px;
     }
-    .fotosCaaa img{
-
+    .bannerServicio .titBanner {
+        width: auto;
     }
+}
+
+
+
+
+
+
+
+
+
+#lightgallery li {
+    margin-top: 15px;
 }
