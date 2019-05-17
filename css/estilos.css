@@ -372,8 +372,8 @@ body {
 }
 .cajaContacto .cajaConta_centro {
 	width: 964px;
-	margin-right: auto;
-	margin-left: auto;
+	/*margin-right: auto;
+	margin-left: auto;*/
 	height: 917px;
 }
 

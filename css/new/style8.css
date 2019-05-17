@@ -55,6 +55,90 @@ header  {
     float: right;
 }
 
+
+
+
+
+.cajaContacto .cajaConta_centro .googleMap {
+    width: 100%;
+    position: relative;
+}
+.cajaContacto .cajaConta_centro .googleMap .centroMapa1 {
+	width: 100%;	
+}
+.cajaContacto .cajaConta_centro .googleMap .centroMapa1 .coberMapa {
+	width: 100%;	
+}
+.cajaContacto .cajaConta_centro .googleMap .mapaFinal {
+	width: 100%;	
+}
+
+
+#lightgallery li {
+    margin-top: 15px;
+}
+
+
+.cajaContacto {
+    height: auto;
+}
+.cajaContacto .cajaConta_centro {
+    width: auto;
+    height: auto;
+}
+.cajaContacto .cajaConta_centro .sepaTop {
+    height: 73px;
+    width: 100%;
+}
+.cajaContacto .cajaConta_centro .cajaConta1 {
+    float: none;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 395px;
+    height: 497px;
+}
+
+.cajaConta1_centro {
+    height: auto;
+    width: auto;
+    padding-top: 73px;
+    padding-right: 50px;
+    max-width: 400px;
+    margin: auto;
+}
+.addres {
+    height: auto;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    color: #515151;
+    text-align: right;
+    padding-right: 35px;
+    padding-top: 150px;
+}
+.cajaContacto .cajaConta_centro .googleMap {
+    width: 100%;
+    background: none;
+    margin-top: 30px;
+}
+.cajaConta1_centro2 {
+    background: #BAD6E0;
+    height: auto;
+    padding: 15px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 767px) {
     header  {
         height: 100px;
@@ -284,16 +368,46 @@ header  {
     .bannerServicio .titBanner {
         width: auto;
     }
+    .cajaContacto .cajaConta_centro .cajaConta2 {
+        margin-left: 0px;
+    }
+    .bannerContacto .titBanner {
+        width: 100%;
+    }
+    .cajaContacto .cajaConta_centro .cajaConta1 {
+        width: 100%;
+    }
+    .logoCont {
+        width: auto;
+    }
+    .cajaContacto .cajaConta_centro .cajaConta2 {
+        float: left;
+        width: auto;
+    }
+    .cajaContacto .cajaConta_centro .cajaConta2 {
+        width: 100%;
+    }
+    .fondoCampos {
+        width: 100%;
+    }
+    .addres {
+    padding-top: 10px;
+    }
+    .cajaConta1_centro2 .btnEnviar {
+        width: 100%;
+    }
 }
 
 
 
 
+.campoTitulo {
+    display: none;
+}
+.campoMensaje {
+    width: 100%;
+}
 
-
-
-
-
-#lightgallery li {
-    margin-top: 15px;
+.footer .footer_int .caja1Footer .cajaTitCont3 {
+    color: #fff;
 }
