@@ -217,9 +217,9 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true) {
     <div class="footer_int row">
       <div class="caja1Footer">
         <div class="cajaTitCont">Contacto</div>
-        <div class="cajaTitCont2"><a target="blank" class="white-link" href="https://goo.gl/maps/iX3rr9RhMiXZu7JK6">Presidente Jorge Alessandri 11.500 - edificio 1 espacio 2B - San Bernardo, Santiago.</a></div>
-        <div class="cajaTitCont3">+562 3207 1122</div>
+        <div class="cajaTitCont3"><a class="color-white" href="tel:+56232071122"><span class="color-white linkmobil">+562 3207 1122</span></a></div>
         <div class="cajaTitCont4"><a class="white-link" href="mailto:ventas@particiones.net">ventas@particiones.net</a></div>
+        <div class="cajaTitCont2"><a target="blank" class="white-link" href="https://goo.gl/maps/iX3rr9RhMiXZu7JK6">Presidente Jorge Alessandri 11.500 - edificio 1 espacio 2B - San Bernardo, Santiago.</a></div>
       </div>
       <div class="caja2Footer"></div>
       <div class="caja3Footer d-md-block d-none">

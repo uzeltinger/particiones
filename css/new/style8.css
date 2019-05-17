@@ -411,3 +411,12 @@ header  {
 .footer .footer_int .caja1Footer .cajaTitCont3 {
     color: #fff;
 }
+.color-white {
+    color: #ffffff!important;
+}
+.footer .footer_int .caja1Footer .cajaTitCont3 a{
+    color: #fff;
+}
+.linkmobil {
+    font-size: 16px;
+}
